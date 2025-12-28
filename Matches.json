@@ -11,6 +11,16 @@
           "url": "https://example.m3u8"
         }
       ]
+    },
+    {
+      "name": "ريال × برشلونه",
+      "time": "17:00",
+      "servers": [
+        {
+          "name": "Server 1",
+          "url": "https://example.m3u8"
+        }
+      ]
     }
   ]
 }
