@@ -1,67 +1,39 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>مباريات اليوم</title>
-
-<style>
-*{
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
-}
-body{
-    margin:0;
-    background:#000;
-    color:#fff;
-    overflow:hidden;
-}
-
-/* ===== Header ===== */
-header{
-    text-align:center;
-    padding:15px;
-    font-size:22px;
-    font-weight:bold;
-}
-header span{
-    display:block;
-    font-size:14px;
-    opacity:0.8;
-}
-
-/* ===== Grid ===== */
-.container{
-    padding:20px;
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:20px;
-}
-
-@media(max-width:900px){
-    .container{
-        grid-template-columns:repeat(2,1fr);
+{
+  "title": "مباريات اليوم",
+  "note": "نحن نبث المباريات الهامة فقط",
+  "matches": [
+    {
+      "name": "Barcelona × Real Madrid",
+      "time": "22:00",
+      "servers": [
+        {
+          "name": "Server 1",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Man City × Arsenal",
+      "time": "21:30",
+      "servers": [
+        {
+          "name": "Server 1",
+          "url": "https://test-streams.mux.dev/test_001/stream.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "PSG × Marseille",
+      "time": "21:00",
+      "servers": [
+        {
+          "name": "Server 1",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        }
+      ]
     }
-}
-@media(max-width:600px){
-    .container{
-        grid-template-columns:1fr;
-    }
-}
-
-/* ===== Match Card ===== */
-.match{
-    background:#111;
-    border-radius:12px;
-    padding:15px;
-    cursor:pointer;
-    position:relative;
-    box-shadow:0 0 15px rgba(0,255,255,0.3);
-    transition:transform .2s, box-shadow .2s;
-}
-.match:focus,
-.match:hover{
-    outline:none;
+  ]
+}    outline:none;
     transform:scale(1.05);
     box-shadow:0 0 25px rgba(0,255,255,0.8);
 }
