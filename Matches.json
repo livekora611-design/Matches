@@ -1,77 +1,18 @@
-{
+moviesData({
   "title": "سينما الأفلام",
   "note": "أفلام مرخّصة – تعمل على الموبايل و Smart TV",
   "matches": [
     {
       "name": "Night of the Living Dead (1968)",
       "time": "01:36:00",
-      "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Night_of_the_Living_Dead_1968_poster.jpg",
-      "servers": [
-        {
-          "name": "مشاهدة",
-          "url": "https://archive.org/download/night_of_the_living_dead/night_of_the_living_dead_512kb.mp4"
-        }
-      ]
+      "poster": "https://archive.org/download/night_of_the_living_dead/night_of_the_living_dead_itemimage.jpg",
+      "url": "https://archive.org/download/night_of_the_living_dead/night_of_the_living_dead_512kb.mp4"
     },
     {
       "name": "Plan 9 from Outer Space (1959)",
       "time": "01:19:00",
-      "poster": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Plan_9_from_Outer_Space_1959_poster.jpg",
-      "servers": [
-        {
-          "name": "مشاهدة",
-          "url": "https://archive.org/download/Plan_9_from_Outer_Space_1959/Plan_9_from_Outer_Space_1959_512kb.mp4"
-        }
-      ]
-    },
-    {
-      "name": "Metropolis (1927)",
-      "time": "02:33:00",
-      "poster": "https://upload.wikimedia.org/wikipedia/commons/0/06/Metropolisposter.jpg",
-      "servers": [
-        {
-          "name": "مشاهدة",
-          "url": "https://archive.org/download/metropolis_1927/metropolis_1927_512kb.mp4"
-        }
-      ]
+      "poster": "https://archive.org/download/Plan_9_from_Outer_Space_1959/Plan_9_from_Outer_Space_1959_itemimage.jpg",
+      "url": "https://archive.org/download/Plan_9_from_Outer_Space_1959/Plan_9_from_Outer_Space_1959_512kb.mp4"
     }
   ]
-}      "servers": [
-        {
-          "name": "مشاهدة",
-          "url": "https://archive.org/download/metropolis_1927/metropolis_1927_512kb.mp4"
-        }
-      ]
-    }
-  ]
-}      "servers": [
-        {
-          "name": "مشاهدة",
-          "url": "https://archive.org/download/SherlockHolmes1916/SherlockHolmes1916_512kb.mp4"
-        }
-      ]
-    },
-    {
-      "name": "The General (1926)",
-      "time": "01:15:00",
-      "poster": "https://i.imgur.com/8Q1ZQZk.jpg",
-      "servers": [
-        {
-          "name": "مشاهدة",
-          "url": "https://archive.org/download/TheGeneral1926/TheGeneral1926_512kb.mp4"
-        }
-      ]
-    },
-    {
-      "name": "The Kid (1921)",
-      "time": "01:08:00",
-      "poster": "https://i.imgur.com/J7cKXyK.jpg",
-      "servers": [
-        {
-          "name": "مشاهدة",
-          "url": "https://archive.org/download/the_kid_1921/the_kid_1921_512kb.mp4"
-        }
-      ]
-    }
-  ]
-}
+})
