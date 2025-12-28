@@ -1,11 +1,21 @@
 {
-  "title": "مباريات اليوم",
-  "note": "نحن نبث المباريات الهامة فقط",
+  "title": "سينما الأفلام",
+  "note": "أفلام مرخّصة – تعمل على الموبايل و Smart TV",
   "matches": [
     {
-      "name": "فرنسا × اليوم",
-      "time": "14:00",
-      "url": "http://dream4k.co/play/live.php?mac=00:1A:79:17:12:88&stream=114052&extension=ts&play_token=iKOQXxjKZT"
+      "name": "Night of the Living Dead (1968)",
+      "time": "01:36:00",
+      "url": "https://archive.org/download/night_of_the_living_dead/night_of_the_living_dead_512kb.m3u8"
+    },
+    {
+      "name": "Plan 9 from Outer Space (1959)",
+      "time": "01:19:00",
+      "url": "https://archive.org/download/Plan_9_from_Outer_Space/plan9.m3u8"
+    },
+    {
+      "name": "The Brain That Wouldn't Die (1962)",
+      "time": "01:22:00",
+      "url": "https://archive.org/download/The_Brain_That_Wouldnt_Die/brain.m3u8"
     }
   ]
 }
