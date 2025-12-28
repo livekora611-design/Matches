@@ -3,28 +3,18 @@
   "note": "نحن نبث المباريات الهامة فقط",
   "matches": [
     {
-      "name": "ريال × برشلونه",
-      "time": "21:00",
-      "servers": [
-        {
-          "name": "Server 1",
-          "url": "https://example.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "ريال × برشلونه",
-      "time": "17:00",
-      "servers": [
-        {
-          "name": "Server 1",
-          "url": "https://example.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "مانيونايتد × سيمو",
+      "name": "سيمو × نيمو",
       "time": "12:00",
+      "servers": [
+        {
+          "name": "Server 1",
+          "url": "https://example.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "بينو × فينو",
+      "time": "14:00",
       "servers": [
         {
           "name": "Server 1",
