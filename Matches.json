@@ -3,14 +3,9 @@
   "note": "نحن نبث المباريات الهامة فقط",
   "matches": [
     {
-      "match": "ريال مدريد × برشلونة",
-      "time": "21:00",
-      "url": "https://example.com/stream.m3u8"
-    },
-    {
-      "match": "الأهلي × الزمالك",
-      "time": "19:30",
-      "url": "https://example.com/stream2.m3u8"
+      "match": "الاهلي × الزمالك",
+      "time": "12:00",
+      "url": "https://example.m3u8"
     }
   ]
 }
