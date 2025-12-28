@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مباريات اليوم</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+body{
+    margin:0;
+    background:#000;
+    color:#fff;
+    overflow:hidden;
+}
+
+/* ===== Header ===== */
+header{
+    text-align:center;
+    padding:15px;
+    font-size:22px;
+    font-weight:bold;
+}
+header span{
+    display:block;
+    font-size:14px;
+    opacity:0.8;
+}
+
+/* ===== Grid ===== */
+.container{
+    padding:20px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+@media(max-width:900px){
+    .container{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+@media(max-width:600px){
+    .container{
+        grid-template-columns:1fr;
+    }
+}
+
+/* ===== Match Card ===== */
+.match{
+    background:#111;
+    border-radius:12px;
+    padding:15px;
+    cursor:pointer;
+    position:relative;
+    box-shadow:0 0 15px rgba(0,255,255,0.3);
+    transition:transform .2s, box-shadow .2s;
+}
+.match:focus,
+.match:hover{
+    outline:none;
+    transform:scale(1.05);
+    box-shadow:0 0 25px rgba(0,255,255,0.8);
+}
+.match .ball{
+    position:absolute;
+    top:10px;
+    left:10px;
+    font-size:24px;
+    display:none;
+}
+.match:focus .ball{
+    display:block;
+}
+.match h3{
+    margin:0;
+    font-size:16px;
+    text-align:center;
+}
+.match p{
+    margin:5px 0 0;
+    font-size:13px;
+    text-align:center;
+    opacity:0.8;
+}
+
+/* ===== Servers ===== */
+.servers{
+    display:none;
+    margin-top:10px;
+}
+.servers button{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:none;
+    border-radius:8px;
+    background:#0af;
+    color:#000;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+/* ===== Player Page ===== */
+#playerPage{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:#000;
+}
+#playerPage video{
+    width:100vw;
+    height:100vh;
+    background:#000;
+}
+#backBtn{
+    position:absolute;
+    top:15px;
+    right:15px;
+    z-index:10;
+    padding:10px 15px;
+    background:#f00;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    مباريات اليوم
+    <span>نحن نبث المباريات الهامة فقط</span>
+</header>
+
+<div class="container" id="matches">
+
+    <!-- MATCH 1 -->
+    <div class="match" tabindex="0" onclick="toggleServers(this)">
+        <div class="ball">⚽</div>
+        <h3>Barcelona × Real Madrid</h3>
+        <p>22:00</p>
+        <div class="servers">
+            <button onclick="play(event,'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8')">Server 1</button>
+        </div>
+    </div>
+
+    <!-- MATCH 2 -->
+    <div class="match" tabindex="0" onclick="toggleServers(this)">
+        <div class="ball">⚽</div>
+        <h3>Man City × Arsenal</h3>
+        <p>21:30</p>
+        <div class="servers">
+            <button onclick="play(event,'https://test-streams.mux.dev/test_001/stream.m3u8')">Server 1</button>
+        </div>
+    </div>
+
+    <!-- MATCH 3 -->
+    <div class="match" tabindex="0" onclick="toggleServers(this)">
+        <div class="ball">⚽</div>
+        <h3>PSG × Marseille</h3>
+        <p>21:00</p>
+        <div class="servers">
+            <button onclick="play(event,'https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8')">Server 1</button>
+        </div>
+    </div>
+
+    <!-- MATCH 4 -->
+    <div class="match" tabindex="0" onclick="toggleServers(this)">
+        <div class="ball">⚽</div>
+        <h3>Bayern × Dortmund</h3>
+        <p>20:30</p>
+        <div class="servers">
+            <button onclick="play(event,'https://test-streams.mux.dev/bbb-360p/bbb-360p.m3u8')">Server 1</button>
+        </div>
+    </div>
+
+    <!-- MATCH 5 -->
+    <div class="match" tabindex="0" onclick="toggleServers(this)">
+        <div class="ball">⚽</div>
+        <h3>Liverpool × Chelsea</h3>
+        <p>19:00</p>
+        <div class="servers">
+            <button onclick="play(event,'https://test-streams.mux.dev/dai-discontinuity-deltatre/manifest.m3u8')">Server 1</button>
+        </div>
+    </div>
+
+    <!-- MATCH 6 -->
+    <div class="match" tabindex="0" onclick="toggleServers(this)">
+        <div class="ball">⚽</div>
+        <h3>Inter × Milan</h3>
+        <p>22:15</p>
+        <div class="servers">
+            <button onclick="play(event,'https://test-streams.mux.dev/pts_shift/master.m3u8')">Server 1</button>
+        </div>
+    </div>
+
+    <!-- MATCH 7 -->
+    <div class="match" tabindex="0" onclick="toggleServers(this)">
+        <div class="ball">⚽</div>
+        <h3>Juventus × Roma</h3>
+        <p>20:45</p>
+        <div class="servers">
+            <button onclick="play(event,'https://test-streams.mux.dev/tears-of-steel/playlist.m3u8')">Server 1</button>
+        </div>
+    </div>
+
+    <!-- MATCH 8 -->
+    <div class="match" tabindex="0" onclick="toggleServers(this)">
+        <div class="ball">⚽</div>
+        <h3>Atletico × Sevilla</h3>
+        <p>18:00</p>
+        <div class="servers">
+            <button onclick="play(event,'https://test-streams.mux.dev/scte35/master.m3u8')">Server 1</button>
+        </div>
+    </div>
+
+    <!-- MATCH 9 -->
+    <div class="match" tabindex="0" onclick="toggleServers(this)">
+        <div class="ball">⚽</div>
+        <h3>Napoli × Lazio</h3>
+        <p>19:30</p>
+        <div class="servers">
+            <button onclick="play(event,'https://test-streams.mux.dev/metadata/master.m3u8')">Server 1</button>
+        </div>
+    </div>
+
+</div>
+
+<!-- PLAYER -->
+<div id="playerPage">
+    <button id="backBtn" onclick="back()">رجوع</button>
+    <video id="player" controls autoplay></video>
+</div>
+
+<script>
+let opened = false;
+
+function toggleServers(card){
+    document.querySelectorAll('.servers').forEach(s=>{
+        if(s!==card.querySelector('.servers')) s.style.display='none';
+    });
+    const s = card.querySelector('.servers');
+    s.style.display = s.style.display === 'block' ? 'none' : 'block';
+}
+
+function isAndroid(){
+    return /Android/i.test(navigator.userAgent);
+}
+
+function play(e,url){
+    e.stopPropagation();
+    if(opened) return;
+    opened = true;
+
+    if(isAndroid()){
+        // فتح VLC فقط
+        window.location.href = "vlc://" + url;
+    }else{
+        // TV Web
+        document.getElementById('matches').style.display='none';
+        document.getElementById('playerPage').style.display='block';
+        const v = document.getElementById('player');
+        v.src = url;
+        v.requestFullscreen?.();
+    }
+
+    setTimeout(()=>opened=false,2000);
+}
+
+function back(){
+    const v = document.getElementById('player');
+    v.pause();
+    v.src='';
+    document.getElementById('playerPage').style.display='none';
+    document.getElementById('matches').style.display='grid';
+}
+</script>
+
+</body>
+</html>
