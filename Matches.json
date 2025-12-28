@@ -1,11 +1,11 @@
 {
   "title": "سينما الأفلام",
-  "note": "أفلام مرخصة – تعمل على الموبايل و Smart TV",
+  "note": "أفلام مرخّصة – تعمل على الموبايل و Smart TV",
   "matches": [
     {
       "name": "Night of the Living Dead (1968)",
       "time": "01:36:00",
-      "poster": "https://archive.org/download/night_of_the_living_dead/night_of_the_living_dead_itemimage.jpg",
+      "poster": "https://i.imgur.com/0rZ9Z9E.jpg",
       "servers": [
         {
           "name": "مشاهدة",
@@ -16,7 +16,7 @@
     {
       "name": "Plan 9 from Outer Space (1959)",
       "time": "01:19:00",
-      "poster": "https://archive.org/download/Plan_9_from_Outer_Space_1959/Plan_9_from_Outer_Space_1959_itemimage.jpg",
+      "poster": "https://i.imgur.com/7cZ8V7B.jpg",
       "servers": [
         {
           "name": "مشاهدة",
@@ -27,7 +27,7 @@
     {
       "name": "The Brain That Wouldn't Die (1962)",
       "time": "01:22:00",
-      "poster": "https://archive.org/download/TheBrainThatWouldntDie/TheBrainThatWouldntDie_itemimage.jpg",
+      "poster": "https://i.imgur.com/9yKQZgR.jpg",
       "servers": [
         {
           "name": "مشاهدة",
@@ -38,7 +38,7 @@
     {
       "name": "Metropolis (1927)",
       "time": "02:33:00",
-      "poster": "https://upload.wikimedia.org/wikipedia/commons/0/06/Metropolisposter.jpg",
+      "poster": "https://i.imgur.com/4XHkTgN.jpg",
       "servers": [
         {
           "name": "مشاهدة",
@@ -49,11 +49,44 @@
     {
       "name": "The Phantom of the Opera (1925)",
       "time": "01:33:00",
-      "poster": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Phantom_of_the_Opera_1925_poster.jpg",
+      "poster": "https://i.imgur.com/qLQ5GxF.jpg",
       "servers": [
         {
           "name": "مشاهدة",
           "url": "https://archive.org/download/phantom_of_the_opera/phantom_of_the_opera_512kb.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Sherlock Holmes (1916)",
+      "time": "01:56:00",
+      "poster": "https://i.imgur.com/M5ZKJ5N.jpg",
+      "servers": [
+        {
+          "name": "مشاهدة",
+          "url": "https://archive.org/download/SherlockHolmes1916/SherlockHolmes1916_512kb.mp4"
+        }
+      ]
+    },
+    {
+      "name": "The General (1926)",
+      "time": "01:15:00",
+      "poster": "https://i.imgur.com/8Q1ZQZk.jpg",
+      "servers": [
+        {
+          "name": "مشاهدة",
+          "url": "https://archive.org/download/TheGeneral1926/TheGeneral1926_512kb.mp4"
+        }
+      ]
+    },
+    {
+      "name": "The Kid (1921)",
+      "time": "01:08:00",
+      "poster": "https://i.imgur.com/J7cKXyK.jpg",
+      "servers": [
+        {
+          "name": "مشاهدة",
+          "url": "https://archive.org/download/the_kid_1921/the_kid_1921_512kb.mp4"
         }
       ]
     }
