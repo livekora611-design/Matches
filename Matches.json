@@ -3,14 +3,9 @@
   "note": "نحن نبث المباريات الهامة فقط",
   "matches": [
     {
-      "name": "Barcelona × Real Madrid",
+      "name": "الي × اب",
       "time": "22:00",
       "url": "https://example.com/stream1.m3u8"
-    },
-    {
-      "name": "Man City × Arsenal",
-      "time": "21:30",
-      "url": "https://example.com/stream2.m3u8"
     }
   ]
 }
