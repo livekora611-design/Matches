@@ -11,6 +11,11 @@
       "match": "الهلال × الي",
       "time": "13:00",
       "url": "https://example.m3u8"
+    },
+    {
+      "match": "لولو × نين",
+      "time": "13:00",
+      "url": "https://example.m3u8"
     }
   ]
 }
