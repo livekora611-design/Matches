@@ -17,6 +17,14 @@
       "servers": [
         "<iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"500px\" scrolling=\"1\" src=\"https://s3.streaming-on.online/albaplayer/extra-1/?serv=0\" width=\"100%\"></iframe>"
       ]
+    },
+    {
+      "league": "الدورى اليونانى",
+      "name": "اليون × الصين",
+      "time": "14:00",
+      "servers": [
+        "<iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"500px\" scrolling=\"1\" src=\"https://s3.streaming-on.online/albaplayer/extra-1/?serv=0\" width=\"100%\"></iframe>"
+      ]
     }
   ]
 }
