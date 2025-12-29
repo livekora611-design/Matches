@@ -1,12 +1,14 @@
 {
   "title": "مباريات اليوم",
-  "note": "",
   "matches": [
     {
-      "league": "كاس امم افريقيا",
-      "name": "زامبيا × المغرب",
+      "league": "الدوري الإنجليزي",
+      "name": "Arsenal × Chelsea",
       "time": "21:00",
-      "iframe": "<iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"500px\" scrolling=\"1\" src=\"https://s3.streaming-on.online/albaplayer/extra-1/?serv=0\" width=\"100%\"></iframe>"
+      "servers": [
+        "<iframe src='https://dddddddddd.alkoora.live/albaplayer/ad-sport-4/?serv=0'></iframe>",
+        "<iframe src='https://dddddddddd.alkoora.live/albaplayer/ad-sport-4/?serv=2'></iframe>"
+      ]
     }
   ]
 }
