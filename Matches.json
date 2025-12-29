@@ -1,26 +1,12 @@
 {
-  "leagues": [
+  "title": "🏆 الدوريات العالمية",
+  "note": "جميع المباريات محدثة تلقائياً",
+  "matches": [
     {
-      "id": "eng",
-      "name": "الدوري الإنجليزي",
-      "matches": [
-        {
-          "title": "Liverpool × Chelsea",
-          "time": "21:00",
-          "iframe": "https://dddddddddd.alkoora.live/albaplayer/ad-sport-4/?serv=2"
-        }
-      ]
-    },
-    {
-      "id": "esp",
-      "name": "الدوري الإسباني",
-      "matches": [
-        {
-          "title": "Barcelona × Real Madrid",
-          "time": "22:00",
-          "iframe": "https://example.com/player2"
-        }
-      ]
+      "league": "الدوري الإنجليزي",
+      "name": "Liverpool × Chelsea",
+      "time": "21:00",
+      "iframe": "https://dddddddddd.alkoora.live/albaplayer/ad-sport-4/?serv=2"
     }
   ]
 }
