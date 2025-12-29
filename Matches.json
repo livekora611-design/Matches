@@ -1,17 +1,26 @@
 {
-  "title": "سينما الأفلام",
-  "matches": [
+  "leagues": [
     {
-      "name": "Night of the Living Dead (1968)",
-      "time": "01:36:00",
-      "poster": "https://archive.org/download/night_of_the_living_dead/night_of_the_living_dead_itemimage.jpg",
-      "url": "https://archive.org/download/night_of_the_living_dead/night_of_the_living_dead_512kb.mp4"
+      "id": "eng",
+      "name": "الدوري الإنجليزي",
+      "matches": [
+        {
+          "title": "Liverpool × Chelsea",
+          "time": "21:00",
+          "iframe": "https://dddddddddd.alkoora.live/albaplayer/ad-sport-4/?serv=2"
+        }
+      ]
     },
     {
-      "name": "Plan 9 from Outer Space (1959)",
-      "time": "01:19:00",
-      "poster": "https://archive.org/download/Plan_9_from_Outer_Space_1959/Plan_9_from_Outer_Space_1959_itemimage.jpg",
-      "url": "https://archive.org/download/Plan_9_from_Outer_Space_1959/Plan_9_from_Outer_Space_1959_512kb.mp4"
+      "id": "esp",
+      "name": "الدوري الإسباني",
+      "matches": [
+        {
+          "title": "Barcelona × Real Madrid",
+          "time": "22:00",
+          "iframe": "https://example.com/player2"
+        }
+      ]
     }
   ]
 }
