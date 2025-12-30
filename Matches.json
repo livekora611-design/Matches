@@ -4,82 +4,18 @@
   "matches": [
     {
       "league": "الدورى المصرى",
-      "name": "الهلال × السودان",
-      "time": "13:00",
-      "servers": [
-        "<iframe",
-        "src=\"PUT_STREAM_URL_HERE\"",
-        "allowfullscreen",
-        "webkitallowfullscreen",
-        "mozallowfullscreen",
-        "allow=\"autoplay; fullscreen; picture-in-picture\"",
-        "style=\"",
-        "width:100%;",
-        "height:100%;",
-        "border:0;",
-        "background:#000;",
-        "\">",
-        "</iframe>"
-      ]
-    },
-    {
-      "league": "يونانى",
-      "name": "ال × ت",
+      "name": "الاهلي × المقاولون العرب",
       "time": "18:00",
       "servers": [
-        "<iframe",
-        "src=\"PUT_STREAM_URL_HERE\"",
-        "allowfullscreen",
-        "webkitallowfullscreen",
-        "mozallowfullscreen",
-        "allow=\"autoplay; fullscreen; picture-in-picture\"",
-        "style=\"",
-        "width:100%;",
-        "height:100%;",
-        "border:0;",
-        "background:#000;",
-        "\">",
-        "</iframe>"
+        "<iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"600px\" scrolling=\"1\" src=\"https://algg.kora-live-live.com/albaplayer/sports-9/\" width=\"100%\"></iframe>"
       ]
     },
     {
-      "league": "نو",
-      "name": "تا × الب",
-      "time": "16:00",
+      "league": "الدورى المصرى",
+      "name": "الجيش × غزل المحله",
+      "time": "18:00",
       "servers": [
-        "<iframe",
-        "src=\"PUT_STREAM_URL_HERE\"",
-        "allowfullscreen",
-        "webkitallowfullscreen",
-        "mozallowfullscreen",
-        "allow=\"autoplay; fullscreen; picture-in-picture\"",
-        "style=\"",
-        "width:100%;",
-        "height:100%;",
-        "border:0;",
-        "background:#000;",
-        "\">",
-        "</iframe>"
-      ]
-    },
-    {
-      "league": "المصرى",
-      "name": "الز × نو",
-      "time": "15:00",
-      "servers": [
-        "<iframe",
-        "src=\"PUT_STREAM_URL_HERE\"",
-        "allowfullscreen",
-        "webkitallowfullscreen",
-        "mozallowfullscreen",
-        "allow=\"autoplay; fullscreen; picture-in-picture\"",
-        "style=\"",
-        "width:100%;",
-        "height:100%;",
-        "border:0;",
-        "background:#000;",
-        "\">",
-        "</iframe>"
+        "<iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"600px\" scrolling=\"1\" src=\"https://algg.kora-live-live.com/albaplayer/sports-d1/\" width=\"100%\"></iframe>"
       ]
     }
   ]
